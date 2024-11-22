@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "terraform-modules-platform"
+    bucket         = "terraform-aws-modules"
     key            = "vpc/advanced-tfstate"
     region         = "us-east-1"
     encrypt        = true
