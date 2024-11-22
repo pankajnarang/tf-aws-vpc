@@ -7,12 +7,12 @@ on:
         - main
       types: [opened, synchronize]
   
-  env:
+env:
     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   
   
-  jobs:
+jobs:
     # run validation and format on the module code
     terraform-module:
       name: Terraform module validation
