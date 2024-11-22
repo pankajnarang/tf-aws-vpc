@@ -1,5 +1,6 @@
 module "advanced" {
-  source                              = "github.com/pankajnarang/tf-aws-vpc.git?ref=v0.0.1"
+  # source                              = "github.com/pankajnarang/tf-aws-vpc.git?ref=v0.0.1"
+  source                              = "../../."
   business_unit                       = "XYZ"
   environment                         = "dev"
   project                             = "ABC"
