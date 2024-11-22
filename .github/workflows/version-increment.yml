@@ -7,6 +7,10 @@ jobs:
   bump-tag-version:
     name: Bump and Tag Version
     runs-on: ubuntu-latest
+    permissions:
+        contents: write
+        pull-requests: write
+        repository-projects: write
     steps:
       - uses: actions/checkout@v4
       - uses: jefflinse/pr-semver-bump@v1.6.0
