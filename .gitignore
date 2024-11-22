@@ -1,0 +1,8 @@
+.terraform.lock.hcl
+.terraform/*
+
+examples/basic/.terraform.lock.hcl
+examples/basic/.terraform/*
+
+examples/advanced/.terraform.lock.hcl
+examples/advanced/.terraform/*
